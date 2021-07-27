@@ -6,7 +6,8 @@
   "author": "LandSwap team",
   "license": "MIT",
   "scripts": {
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "start": "gatsby develop"
   },
   "dependencies": {
     "gatsby": "^3.10.2",
