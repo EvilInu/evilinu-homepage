@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
-    "start": "gatsby develop"
+    "start": "gatsby build & gatsby serve"
   },
   "dependencies": {
     "gatsby": "^3.10.2",
