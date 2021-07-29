@@ -12,7 +12,7 @@ export default function () {
         flexDirection: 'column',
       }}
     >
-      <h1 className="text-4xl p-7 font-bold">404 ERROR</h1>
+      <h1 className="text-4xl p-7 font-bold">404 ERROR !</h1>
     </div>
   );
 }
