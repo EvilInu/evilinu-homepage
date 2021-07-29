@@ -1,19 +1,19 @@
 import * as React from 'react';
+import { Layout } from '../components/layout/layout';
 
 export default function () {
   return (
-    <div
-      className="md:container md:mx-auto bg-blue-100"
-      style={{
-        display: 'flex',
-        height: '100vh',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column',
-      }}
-    >
-      <h1 className="text-4xl p-7 font-bold">Landswap is under construction</h1>
-      <blockquote>We are working overtime to deliver!</blockquote>
-    </div>
+    <Layout>
+      <section className="text-center">
+        <div>
+          <h1 className="`text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10`">
+            Landswap
+          </h1>
+        </div>
+        <div>
+          <p>Building the big next DeFi for the world!</p>
+        </div>
+      </section>
+    </Layout>
   );
 }
