@@ -38,7 +38,7 @@ const Mission = (prop: IMissionProps) => {
           Mission
         </h1>
       </div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="flex-1 pl-0 pr-9">
           <p className="text-xl">
             Create a global movement for innovation and creating sociels goods

@@ -22,9 +22,9 @@ const Products = (props: IProductsProps) => {
             </strong>
           </p>
         </div>
-        <div className="flex-1 rounded-md bg-green-300 p-4 shadow-xl"></div>
+        <div className="rounded-md bg-green-300 p-4 shadow-xl hidden xl:flex xl:flex-1"></div>
       </div>
-      <div className="flex flex-row my-5 space-x-8">
+      <div className="flex mx-10 flex-col md:flex-row my-5 space-y-8 md:space-x-8 md:space-y-0">
         <div className="flex-1 shadow-md p-5">
           <div></div>
           <div>

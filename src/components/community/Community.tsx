@@ -19,7 +19,7 @@ const Community = (props: ICommunityProps) => {
           </p>
         </div>
       </div>
-      <div className="flex space-x-12">
+      <div className="flex mx-5 space-y-12 lg:space-y-0 lg:space-x-12 flex-col lg:flex-row lg:mx-auto">
         <div className="flex-1 shadow-md p-5 rounded-lg">
           <div></div>
           <div>
