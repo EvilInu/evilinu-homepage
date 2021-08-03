@@ -40,7 +40,7 @@ const Mission = (prop: IMissionProps) => {
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 pl-0 pr-9">
-          <p className="text-xl">
+          <p className="text-xl mb-4">
             Create a global movement for innovation and creating sociels goods
             for human society, how small or big your idea is, you're welcome to
             work on it. Connect and find people who have the same fire for your

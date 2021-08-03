@@ -1,8 +1,21 @@
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
 interface IPartnersProps {}
 
 const Partners = (props: IPartnersProps) => {
+  const data = useStaticQuery(graphql`
+    {
+      uniswap: file(relativePath: { eq: "uniswap.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <div className="text-center">
       <div>
@@ -10,7 +23,13 @@ const Partners = (props: IPartnersProps) => {
           Partners
         </h1>
       </div>
-      <div></div>
+      <div className="mb-4 text-center">
+        <div className="w-1/2 lg:w-1/6 p-2 inline-block hover:bg-gray-50">
+          <a href="https://uniswap.org" target="_blank">
+            <img src={data.uniswap.childImageSharp.fluid.src} alt="uniswap" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
