@@ -25,9 +25,8 @@ const Mission = (prop: IMissionProps) => {
         setError(true);
         setSuccess(false);
       }
-      console.log(result, msg);
     } catch (error) {
-      console.error(error);
+      setError(true);
     }
   };
 

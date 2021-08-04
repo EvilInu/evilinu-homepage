@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react';
+import { Footer } from '../footer/Footer';
 
 interface ILayoutProps {
   children: ReactNode;
@@ -22,11 +23,7 @@ export const Layout = (props: ILayoutProps) => {
         </header>
         <div>{children}</div>
       </div>
-      <footer className="bg-gray-800 text-white p-8 mt-4">
-        <div className="md:container md:mx-auto">
-          <p>Footer</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };

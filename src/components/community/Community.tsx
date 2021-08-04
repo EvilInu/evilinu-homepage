@@ -47,7 +47,7 @@ const Community = (props: ICommunityProps) => {
           <div className="flex flex-row space-x-8">
             <div>
               <h4 className="font-extrabold text-xl">Growth</h4>
-              <p className="text-md my-2 text-gray-500">The average API</p>
+              <p className="text-md my-2 text-gray-500">The average APY</p>
               <p className="font-extrabold text-5xl text-green-300 my-10">
                 120%
               </p>

@@ -4,14 +4,14 @@ interface IProductsProps {}
 
 const Products = (props: IProductsProps) => {
   return (
-    <div className="h-1/2">
+    <div>
       <div>
         <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
           Our Products
         </h1>
       </div>
       <div className="flex space-x-4">
-        <div className="flex-2">
+        <div className="w-full md:w-1/2 md:mx-2">
           <p className="my-10 text-xl bg-gray-50 p-4">
             We are building new tools for the new world and making an
             alternative market for world capital for the citizens of the world.{' '}
@@ -22,7 +22,6 @@ const Products = (props: IProductsProps) => {
             </strong>
           </p>
         </div>
-        <div className="rounded-md bg-green-300 p-4 shadow-xl hidden xl:flex xl:flex-1"></div>
       </div>
       <div className="flex mx-10 flex-col md:flex-row my-5 space-y-8 md:space-x-8 md:space-y-0">
         <div className="flex-1 shadow-md p-5">
