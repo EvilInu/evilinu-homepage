@@ -4,7 +4,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-postcss',
-    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
         resolve: 'gatsby-plugin-mailchimp',
