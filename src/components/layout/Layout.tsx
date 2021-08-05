@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Footer } from '../footer/Footer';
+import MDX from '../mdx/mdx';
 
 interface ILayoutProps {
   children: ReactNode;
@@ -23,7 +24,9 @@ const Layout = (props: ILayoutProps) => {
             </a>
           </div>
         </header>
-        <div>{children}</div>
+        <div>
+          <MDX>{children}</MDX>
+        </div>
       </div>
       <Footer />
     </>

@@ -22,6 +22,7 @@
     "gatsby-plugin-react-helmet": "^4.11.0",
     "gatsby-plugin-sharp": "^3.10.2",
     "gatsby-plugin-sitemap": "^4.7.0",
+    "gatsby-plugin-slug-field": "^0.3.1",
     "gatsby-remark-autolink-headers": "^4.8.0",
     "gatsby-remark-copy-linked-files": "^4.8.0",
     "gatsby-remark-embedder": "^5.0.0",
@@ -36,6 +37,7 @@
     "validator": "^13.6.0"
   },
   "devDependencies": {
+    "@types/mdx-js__react": "^1.5.4",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
     "@types/validator": "^13.6.3",

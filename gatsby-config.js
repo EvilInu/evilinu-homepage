@@ -5,6 +5,8 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-slug-field',
+    // 're-slug',
     {
         resolve: 'gatsby-plugin-mailchimp',
         options: {
@@ -41,7 +43,7 @@ module.exports = {
           gatsbyRemarkPlugins: [
             `gatsby-remark-embedder`,
             `gatsby-remark-copy-linked-files`,
-            `gatsby-remark-autolink-headers`,
+            // `gatsby-remark-autolink-headers`,
             `gatsby-remark-smartypants`,
             {
               resolve: `gatsby-remark-images`,
