@@ -1,3 +1,4 @@
+import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 
 interface IProductsProps {}
@@ -31,7 +32,10 @@ const Products = (props: IProductsProps) => {
             <p className="my-4">
               Our native token for landswap platform, used to stack, vote, and
               have bigger roles inside the community.{' '}
-              <a className="text-blue-500 hover:text-blue-600" href="#">
+              <a
+                className="text-blue-500 hover:text-blue-600"
+                href="/products/landswap-token"
+              >
                 view more
               </a>
             </p>

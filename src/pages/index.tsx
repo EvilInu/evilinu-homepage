@@ -1,13 +1,23 @@
 import * as React from 'react';
 import Community from '../components/community/Community';
-import { Layout } from '../components/layout/Layout';
+import Layout from '../components/layout/Layout';
 import Mission from '../components/mission/Mission';
 import Partners from '../components/partners/Partners';
 import Products from '../components/products/Products';
+import Helmet from 'react-helmet';
 
 export default function () {
   return (
     <Layout>
+      <Helmet
+        title="Landswap | Create the new wealth of the nation."
+        htmlAttributes={{ lang: 'en' }}
+      >
+        <meta
+          name="title"
+          content="Landswap | Create the new wealth of the nation."
+        />
+      </Helmet>
       <section className="flex justify-center p-10 m-10 bg-hero bg-cover">
         <div className="flex-1 bg-white p-10">
           <div>
