@@ -10,18 +10,15 @@ export default function () {
   return (
     <Layout>
       <Helmet
-        title="Landswap | Create the new wealth of the nation."
+        title="`EvilInu | The Evil Brother of Shiba Inu`"
         htmlAttributes={{ lang: 'en' }}
       >
-        <meta
-          name="title"
-          content="Landswap | Create the new wealth of the nation."
-        />
+        <meta name="title" content="EvilInu | The Evil Brother of Shiba Inu" />
       </Helmet>
-      <section className="flex justify-center p-10 m-10 bg-hero bg-cover">
-        <div className="flex-1 bg-white p-10">
-          <div>
-            <h1 className="text-4xl sm:text-8xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+      <section className="flex justify-center p-10 m-10 bg-hero bg-contain bg-no-repeat h-full">
+        <div className="hidden flex-1 p-10">
+          <div className="">
+            <h1 className="text-4xl sm:text-8xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-300 mt-10 mb-8 sm:mt-14 sm:mb-10">
               New and open financial world!
             </h1>
           </div>
@@ -33,10 +30,6 @@ export default function () {
           <div className=""></div>
         </div>
       </section>
-      <Products />
-      <Community />
-      <Mission />
-      <Partners />
     </Layout>
   );
 }
