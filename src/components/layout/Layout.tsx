@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 import { Footer } from '../footer/Footer';
 import MDX from '../mdx/mdx';
 import { Navigation } from '../nav/navigation';
+import { DisableButton } from '../primitives';
 
 interface ILayoutProps {
   children: ReactNode;
